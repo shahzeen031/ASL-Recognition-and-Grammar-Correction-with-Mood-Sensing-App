@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 //     await faceapi.nets.ssdMobilenetv1.loadFromDisk(__dirname + "/weights");
 //   }
 //   LoadModels();
-  
+
 
 //app.set('view engine', ejs);
 
@@ -33,6 +33,7 @@ app.use(bodyParser.json());
 // app.use('/api/user', require('./routes/api/user'));
 //app.use('/api/facedetect', require('./routes/facedetect_aws'));
 app.use('/api/facedetectAPI', require('./routes/facedetect_aws'));
+app.use('/api/chatgptAPI', require('./routes/chatgptAPI'));
 app.use('/out', express.static('out'));
 //app.use('/api/face', require('./routes/facedetect'));
 
