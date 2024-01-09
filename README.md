@@ -30,6 +30,6 @@ Then start the Python api in the API file.
 
 ## Project UI
 
-![UI](/Sign-Assistant/assets/images/UI3.jpeg) ![Mobile UI](/Sign-Assistant/assets/images/UI2.jpeg)
+![UI](/Screenshot 2023-10-17 044108.png)
 
 
