@@ -3,7 +3,7 @@ const OpenAI = require('openai');
 
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "",
 });
 
 
