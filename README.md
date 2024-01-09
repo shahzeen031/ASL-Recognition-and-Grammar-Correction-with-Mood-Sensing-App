@@ -30,6 +30,6 @@ Then start the Python api in the API file.
 
 ## Project UI
 
-![UI](/Screenshot 2023-10-17 044108.png)
+![UI](/Screenshot2023-10-17044108.png)
 
 
