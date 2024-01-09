@@ -3,10 +3,12 @@
 
 ## Description
 
-- “Sign Language Recognition” using latest computer vision and Natural language processing techniques.
-- This research is primarily focus on developing a full way of communication between sign language users to the digital world, and to improve the human computer interaction for everyone..
-- Sign Assist is an App where sign language speaker can communicate to the Google assistant through their web cam.
-- The signers perform their gestures; the gestures are send to my AI model which translate it into understandable text language, then the converted text is send to the digital assistant API and its response is shown on the screen.
+- “ ASL Sign Language Recognition” using the latest computer vision and Natural language processing techniques.
+- Developed  an ASL Recognition App employing LSTM models trained on an ASL dataset for accurate gesture identification.
+- Integrated MediaPipe to extract features from video frames, enhancing the precision of sign language recognition.
+- Integrated GPT Grammar Correction API to convert ASL sentences into coherent and grammatically correct sentences.
+- Utilized Amazon Recognition to analyze and understand users' moods for personalized interactions.
+- Created a user-friendly interface for efficient ASL gesture processing and seamless navigation.
 
 
 ## Table of Contents
@@ -25,10 +27,6 @@ Start by installing all Node dependencies using `npm install` in the Sign-Assist
 Run the Backend in sign-Assistant folder by `npm start` and frontend in my-app folder by using `npm start`.
 Then start the Python api in the API file.
    
-
-## Project Layout
-
-![UI](/Sign-Assistant/assets/images/UI1.jpeg) 
 
 ## Project UI
 
